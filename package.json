@@ -1,0 +1,30 @@
+{
+  "name": "bbk_node_express_sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+  "start": "node index.js",
+  "dev": "nodemon index.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilleG02/bbk_node_express_sql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuilleG02/bbk_node_express_sql/issues"
+  },
+  "homepage": "https://github.com/GuilleG02/bbk_node_express_sql#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  }
+}
