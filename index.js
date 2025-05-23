@@ -21,5 +21,8 @@ app.get('/createdb', (req, res) => {
 app.use('/product', require('./routes/product'));
 app.use('/category', require('./routes/category'));
 
+app.use('/user', require('./routes/user'));
+app.use('/orderJS', require('./routes/orderJS'));
+
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
